@@ -20,8 +20,7 @@
 
 title: "MotoRiderVision-Blog"
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-"Innovative AR Helmet for Motorcycle Riders"
+description: "Innovative AR Helmet for Motorcycle Riders"
 baseurl: "" 
 url: "https://github.com/SGuzman4886/MotoRiderVision-Blog.git" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -31,6 +30,7 @@ url: "https://github.com/SGuzman4886/MotoRiderVision-Blog.git" # the base hostna
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,6 +51,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 author:
   name: "Your Name"
   avatar: "/assets/images/avatar.png"
@@ -64,9 +65,5 @@ nav:
     url: "/blog/"
   - title: "About"
     url: "/about/"
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 markdown: kramdown
