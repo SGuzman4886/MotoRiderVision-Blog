@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/assets/css/BlogAssests.css' | relative_url }}">
+    <script src="{{ '/assets/js/animation.js' | relative_url }}" defer></script>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                {% for item in site.nav %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>

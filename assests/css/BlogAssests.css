@@ -1,0 +1,75 @@
+body 
+{
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a
+{
+    color: #ff0033;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    a:hover 
+    {
+        color: #ff6600;
+    }
+
+.navbar 
+{
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #ff0033;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    color: #ff0033;
+    text-transform: uppercase;
+}
+
+.post-content img 
+{
+    max-width: 100%;
+    border: 2px solid #ff0033;
+    border-radius: 5px;
+}
+
+.post-content p 
+{
+    line-height: 1.6;
+}
+
+@keyframes pulse 
+{
+    0% 
+    {
+        box-shadow: 0 0 0 0 rgba(255, 0, 51, 0.7);
+    }
+
+    70% 
+    {
+        box-shadow: 0 0 10px 20px rgba(255, 0, 51, 0);
+    }
+
+    100% 
+    {
+        box-shadow: 0 0 0 0 rgba(255, 0, 51, 0);
+    }
+}
+
+.animated-button 
+{
+    background-color: #ff0033;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    animation: pulse 2s infinite;
+    transition: transform 0.3s ease;
+}
+
+    .animated-button:hover 
+    {
+        transform: scale(1.1);
+    }
