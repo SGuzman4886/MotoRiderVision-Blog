@@ -27,7 +27,7 @@ url: "https://github.com/SGuzman4886/MotoRiderVision-Blog.git" # the base hostna
 #github_username:  jekyll
 
 # Build settings
-theme: "minimal-mistakes-jekyll"
+theme: "jekyll-theme-slate"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
