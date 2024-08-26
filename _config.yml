@@ -27,7 +27,7 @@ url: "https://github.com/SGuzman4886/MotoRiderVision-Blog.git" # the base hostna
 #github_username:  jekyll
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -54,7 +54,7 @@ plugins:
 
 author:
   name: "Your Name"
-  avatar: "/assets/images/avatar.png"
+  avatar: "/assests/images/avatar.png"
   bio: "Innovator in motorcycle safety technology."
   location: "Your City, Country"
 
