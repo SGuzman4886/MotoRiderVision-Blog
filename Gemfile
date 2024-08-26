@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
-gem "jekyll-theme-slate", "~> 4.24.0"
+gem "jekyll-theme-slate", "~> 0.2.0"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
